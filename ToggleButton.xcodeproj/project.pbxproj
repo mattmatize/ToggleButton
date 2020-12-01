@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7796D5F02576EF9C00732A78 /* ToggleButtonText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7796D5EF2576EF9C00732A78 /* ToggleButtonText.swift */; };
 		77AEB2662576BB49001384A4 /* ToggleButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB2652576BB49001384A4 /* ToggleButtonApp.swift */; };
 		77AEB2682576BB49001384A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB2672576BB49001384A4 /* ContentView.swift */; };
 		77AEB26A2576BB4A001384A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77AEB2692576BB4A001384A4 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7796D5EF2576EF9C00732A78 /* ToggleButtonText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButtonText.swift; sourceTree = "<group>"; };
 		77AEB2622576BB49001384A4 /* ToggleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToggleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AEB2652576BB49001384A4 /* ToggleButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButtonApp.swift; sourceTree = "<group>"; };
 		77AEB2672576BB49001384A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				77AEB2652576BB49001384A4 /* ToggleButtonApp.swift */,
 				77AEB2672576BB49001384A4 /* ContentView.swift */,
+				7796D5EF2576EF9C00732A78 /* ToggleButtonText.swift */,
 				77AEB2692576BB4A001384A4 /* Assets.xcassets */,
 				77AEB26E2576BB4A001384A4 /* Info.plist */,
 				77AEB26B2576BB4A001384A4 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				77AEB2682576BB49001384A4 /* ContentView.swift in Sources */,
 				77AEB2662576BB49001384A4 /* ToggleButtonApp.swift in Sources */,
+				7796D5F02576EF9C00732A78 /* ToggleButtonText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

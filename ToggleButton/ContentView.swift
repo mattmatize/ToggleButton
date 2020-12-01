@@ -14,16 +14,20 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color(#colorLiteral(red: 0.9490196078, green: 0.9490196078, blue: 0.9490196078, alpha: 1))
-            Rectangle()
-                .frame(width: 200, height: 200)
-                .foregroundColor(Color(#colorLiteral(red: 0.007843137255, green: 0, blue: 0, alpha: 0.3)))
-                .cornerRadius(24)
-                .overlay(RoundedRectangle(cornerRadius: 16).stroke(Color.white, lineWidth: 8))
-               // .opacity(showing ? 1 : 0)
-                .rotationEffect(.degrees(showing ? 0 : 180))
-                .position(x: UIScreen.main.bounds.size.width / 2, y: showing ? 400 : 200)
-                .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.2)), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: 20)
-                .animation(.spring(response: 0.55, dampingFraction: 0.55, blendDuration: 0))
+            VStack {
+                Rectangle()
+  
+                    .frame(width: 200, height: 200)
+                    .foregroundColor(Color(#colorLiteral(red: 0.007843137255, green: 0, blue: 0, alpha: 0.3)))
+                    .cornerRadius(24)
+                    .overlay(RoundedRectangle(cornerRadius: 16).stroke(Color.white, lineWidth: 8))
+                   // .opacity(showing ? 1 : 0)
+                    
+                    .rotationEffect(.degrees(showing ? 0 : 180))
+                    .position(x: UIScreen.main.bounds.size.width / 2, y: showing ? 400 : 200)
+                    .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.2)), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: 20)
+                    .animation(.spring(response: 0.55, dampingFraction: 0.55, blendDuration: 0))
+            }
             VStack {
                 Spacer()
                 Button(action: {
